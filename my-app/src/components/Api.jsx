@@ -21,10 +21,10 @@ function Api() {
    
   return (
     <div className='conteiner'>
-        <h1>Api</h1>
+        <h1>Fake People</h1>
     <ul>
         {api.map((user,i)=>
-          <li className='user'>  <img src={user.picture.large} alt="" />  <br></br>Name:  {user.name.first}<br></br>Surname:  {user.name.last}
+          <li className='user'>  <img src={user.picture.large}  alt="" />  <br></br>Name:  {user.name.first}<br></br>Surname:  {user.name.last}<br></br>Country: {user.location.country}<br></br>Age: {user.dob.age}
         </li>
         )}
         </ul>
