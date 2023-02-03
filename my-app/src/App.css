@@ -1,0 +1,32 @@
+*{
+  margin:0;
+}
+
+.App {
+  border: 1px solid ;
+}
+h1{
+  text-align: center;
+}
+.user{
+  border: 1px solid ;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+li {
+
+  padding: 20px;
+
+}
+
+
+
+
